@@ -24,8 +24,7 @@ def get_content(html):
     		})
 	for i in sss:
 		print(i['title'])
-	global page
-	page +=1
+
 
 def parse(page):
 	html = get_html(URL+page)
