@@ -3,7 +3,7 @@ from bs4 import	BeautifulSoup as BS
 from fake_useragent import UserAgent
 ua = UserAgent()
 
-state = input('Город :')
+state = input('Город :') # Пример 'vinnica'
 
 URL = f"https://auto.ria.com/uk/legkovie/state/{state}/?page="
 HEADERS = {'user-agent':f'{ua.random}','accept':'*/*'}
